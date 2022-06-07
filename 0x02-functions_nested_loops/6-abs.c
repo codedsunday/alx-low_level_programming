@@ -1,17 +1,22 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * _abs - compute the absolute value of an integer
- * @n: int type number
- * Return: absolute value of @n
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
  */
-int _abs(int n)
+int main(void)
 {
-	if (n < 0)
-	{
-		return (n * -1);
-	}
-	else
-	{
-		return (n)
-	}
+	int r;
+
+	r = _abs(-1);
+	printf("%d\n", r);
+	r = _abs(0);
+	printf("%d\n", r);
+	r = _abs(1);
+	printf("%d\n", r);
+	r = _abs(-98);
+	printf("%d\n", r);
+	return (0);
 }
